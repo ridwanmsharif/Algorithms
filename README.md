@@ -12,6 +12,7 @@ Algorithms I've implemented and pushed to this repo so far:
 + Levenshtien's Edit Distance
 + Unique Substring Problem
 + Bounded Substring Problem
++ Dice-Coefficient/Sorenson-Index (2-Pair)
 
 ## Author
 
