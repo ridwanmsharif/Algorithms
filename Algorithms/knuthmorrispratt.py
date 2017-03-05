@@ -1,27 +1,32 @@
-def knuthmorrispratt(search, pattern):
-	
-    search = list(search)
+# Optimal Subsrting test
+# Implementing KNP Algorithm
+def KnuthMorrisPratt(text, pattern):
+
     pattern = list(pattern)
 
-    curr_index = 0;
+    # Shifting Table for pattern
+    shifts = [1] * (len(pattern) + 1)
+    j = 1
+    for i in range(len(pattern)):
+        while j <= i and pattern[i] != pattern[i - j]:
+            j += 1
+        shifts[i + 1] = j
+    
+    results = []
     start_index = 0
+    match_len = 0
 
-    matches = []
+    for char in text:
+        while match_len == len(pattern) or \
+              match_len >= 0 and pattern[match_len] != char:
+            start_index += shifts[match_len]
+            match_len -= shifts[match_len]
 
-    start_indices = []
-    for i, elem in enumerate(pattern):
-        if ((curr_index < len(search)) and
-            (elem != search[curr_index])):
+        match_len += 1
 
-            curr_index = 0
-        elif curr_index < len(search): 
-            if curr_index == 0:
-                start_index = i
+        if match_len == len(pattern):
+            results.append(start_index)
 
-            if curr_index == (len(search) - 1):
-                matches.append(start_index)
-                curr_index = 0
-            else:
-                curr_index += 1
+    return results
 
-    return matches
+print(KnuthMorrisPratt("bababacababa", "abab"))

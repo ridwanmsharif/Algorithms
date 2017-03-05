@@ -15,11 +15,11 @@ Algorithms I've implemented and pushed to this repo so far:
 + Dice-Coefficient/Sorenson-Index (2-Pair)
 + Miller-Rabin Primality test
 + Substring Test Algorithm
-+ Knuth-Morris-Pratt (KNP) 
++ Knuth-Morris-Pratt (KNP) Algorithm 
 
 ## Author
 
-Ridwan M. Sharif: [E-mail](ridwanmsharif@hotmail.com), [@ridwanmsharif](https://www.github.com/ridwanmsharif)
+Ridwan M. Sharif: [E-mail](mailto:ridwanmsharif@hotmail.com), [@ridwanmsharif](https://www.github.com/ridwanmsharif)
 
 ## License
 
