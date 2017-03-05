@@ -13,6 +13,7 @@ Algorithms I've implemented and pushed to this repo so far:
 + Unique Substring Problem
 + Bounded Substring Problem
 + Dice-Coefficient/Sorenson-Index (2-Pair)
++ Miller-Rabin Primality test
 
 ## Author
 
