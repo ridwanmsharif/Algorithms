@@ -14,6 +14,8 @@ Algorithms I've implemented and pushed to this repo so far:
 + Bounded Substring Problem
 + Dice-Coefficient/Sorenson-Index (2-Pair)
 + Miller-Rabin Primality test
++ Substring Test Algorithm
++ Knuth-Morris-Pratt (KNP) 
 
 ## Author
 
