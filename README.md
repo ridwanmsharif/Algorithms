@@ -16,6 +16,8 @@ Algorithms I've implemented and pushed to this repo so far:
 + Miller-Rabin Primality test
 + Substring Test Algorithm
 + Knuth-Morris-Pratt (KNP) Algorithm 
++ Chess Queen Problem
++ Phone digit problem (w/o Tries and autocompletion)
 
 ## Author
 

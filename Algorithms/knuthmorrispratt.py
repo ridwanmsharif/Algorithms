@@ -28,5 +28,3 @@ def KnuthMorrisPratt(text, pattern):
             results.append(start_index)
 
     return results
-
-print(KnuthMorrisPratt("bababacababa", "abab"))
