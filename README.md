@@ -18,6 +18,8 @@ Algorithms I've implemented and pushed to this repo so far:
 + Knuth-Morris-Pratt (KNP) Algorithm 
 + Chess Queen Problem
 + Phone digit problem (w/o Tries and autocompletion)
++ Combination Algorithms
++ Permutation Algorithms
 
 ## Author
 
