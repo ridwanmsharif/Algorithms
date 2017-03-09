@@ -20,6 +20,8 @@ Algorithms I've implemented and pushed to this repo so far:
 + Phone digit problem (w/o Tries and autocompletion)
 + Combination Algorithms
 + Permutation Algorithms
++ Valid Parentheses Problem
++ Subset Generation (1 line Racket challenge)
 
 ## Author
 
