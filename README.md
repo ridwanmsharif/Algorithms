@@ -23,6 +23,7 @@ Algorithms I've implemented and pushed to this repo so far:
 + Permutation Algorithms
 + Valid Parentheses Problem
 + Subset Generation (1 line Racket challenge)
++ Pigeonhole/Counting Sort
 
 ## Author
 
