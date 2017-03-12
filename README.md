@@ -8,6 +8,7 @@ Feedback on implementations are of course welcome.
 ## Algorithms:
 
 Algorithms I've implemented and pushed to this repo so far:
++ A\* Path Finding Algorithm
 + Convex Hull Generator
 + Levenshtien's Edit Distance
 + Unique Substring Problem
