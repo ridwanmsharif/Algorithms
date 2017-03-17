@@ -24,6 +24,7 @@ Algorithms I've implemented and pushed to this repo so far:
 + Valid Parentheses Problem
 + Subset Generation (1 line Racket challenge)
 + Pigeonhole/Counting Sort
++ Bogo Sort
 
 ## Author
 
